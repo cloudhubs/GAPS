@@ -144,6 +144,11 @@ public class AdminBasicInfoServiceImplTest {
     }
 
     @Test
+    public void testCiCd(){
+        fail("guaranteed fail");
+    }
+
+    @Test
     public void testAddTrain() {
         TrainType t = new TrainType();
         HttpEntity<TrainType> requestEntity = new HttpEntity<>(t, headers);
