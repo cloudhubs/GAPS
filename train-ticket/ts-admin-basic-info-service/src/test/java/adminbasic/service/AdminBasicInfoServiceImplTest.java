@@ -143,10 +143,6 @@ public class AdminBasicInfoServiceImplTest {
         Assert.assertEquals(new Response<>(null, null, null), response);
     }
 
-    @Test
-    public void testCiCd(){
-        fail("guaranteed fail");
-    }
 
     @Test
     public void testAddTrain() {
