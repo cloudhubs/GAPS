@@ -69,12 +69,6 @@ public class AdminBasicInfoServiceImplTest {
         Assert.assertEquals(new Response<>(null, null, null), response);
     }
 
-    //when this test is removed and committed, the Git hook will automatically trigger
-    @Test
-    public void testCiCd(){
-        fail("guaranteed fail");
-    }
-
     @Test
     public void testAddContact() {
         Contacts c = new Contacts();
