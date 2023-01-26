@@ -69,12 +69,6 @@ public class AdminBasicInfoServiceImplTest {
         Assert.assertEquals(new Response<>(null, null, null), response);
     }
 
-    //This time we'll check the commit ID when this test gets removed
-    @Test
-    public void testCiCd(){
-        fail("guaranteed failure");
-    }
-
     @Test
     public void testAddContact() {
         Contacts c = new Contacts();
